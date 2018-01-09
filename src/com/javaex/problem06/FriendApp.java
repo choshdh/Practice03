@@ -29,7 +29,7 @@ public class FriendApp {
         // 친구정보 출력
         for (int i = 0; i < friendArray.length; i++) {
             //친구정보 출력 메소드 호출
-        	System.out.println("이름 : " + friendArray[i].getName() + "  전화번호 : " + friendArray[i].getHp() + "  학교 : " + friendArray[i].getSchool());
+        	friendArray[i].showInfo();
         }
 
         sc.close();
