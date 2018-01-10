@@ -5,7 +5,9 @@ public class CConverterApp {
 
     public static void main(String[] args) {
 
+    	//100달러 입력
         double dollar = 100;
+        //100만원 입력
         double won = 1000000;
         
         CConverter.setRate(1118.70);
