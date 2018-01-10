@@ -12,10 +12,10 @@ public class FriendApp {
         System.out.println("친구를 3명 등록해 주세요");
 
         
-            // 친구정보 입력받기
+        // 친구정보 입력받기
         for(int i=0; i<3; i++) {
         	String friendInfo = sc.nextLine();
-        	// 입력받은 친구정보를 공백으로 분리
+        	// 입력받은 친구정보를 공백으로 분리하여 배열로 생성하여 friend 에 대입
         	String[] friend = friendInfo.split(" ");
         	// Friend 객체 생성하여 데이터 넣기
         	Friend f = new Friend();
